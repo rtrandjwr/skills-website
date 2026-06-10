@@ -14,7 +14,7 @@ window.PORTFOLIO_CONTENT = {
   metrics: [
     { value: "$10M+", label: "Portfolio Forecasted" },
     { value: "100s", label: "Reports Delivered" },
-    { value: "5+", label: "Platforms Integrated" },
+    { value: "5+ Platforms Integrated" },
   ],
   expertise: [
     {

@@ -37,8 +37,9 @@ const renderMetrics = () => {
   container.innerHTML = "";
 
   content.metrics.forEach((metric) => {
-    const item = createElement("div", "metric");
-    item.append(createElement("dt", "", metric.value), createElement("dd", "", metric.label));
+    const item = createElement("div", metric.label ? "metric" : "metric metric-single");
+    item.append(createElement("dt", "", metric.value));
+    if (metric.label) item.append(createElement("dd", "", metric.label));
     container.append(item);
   });
 };
