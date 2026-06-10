@@ -12,8 +12,6 @@ window.PORTFOLIO_CONTENT = {
   contactCopy:
     "I am open to technology operations, systems integration, data automation, and reporting roles where durable tools and clear execution matter.",
   metrics: [
-    { value: "$10M+", label: "Portfolio Forecasted" },
-    { value: "100s", label: "Reports Delivered" },
     { value: "5+ Platforms Integrated" },
   ],
   expertise: [

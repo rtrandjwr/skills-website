@@ -306,7 +306,7 @@ select {
 
 .metric-strip {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 1px;
   width: min(720px, 100%);
   margin: 56px 0 0;
@@ -755,7 +755,7 @@ select {
   }
 
   .metric-strip {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     margin-top: 28px;
   }
 
