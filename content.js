@@ -42,18 +42,6 @@ window.PORTFOLIO_CONTENT = {
   ],
   impact: [
     {
-      metric: "$10M+",
-      label: "scholarship and loan portfolio forecasted",
-      detail:
-        "Forecasted the annual budget for a major scholarship and loan repayment portfolio while supporting leadership decisions with analytical reporting.",
-    },
-    {
-      metric: "100s",
-      label: "recurring and ad hoc reports created",
-      detail:
-        "Gave leadership and staff stronger visibility into mission-critical operations, trends, deadlines, and exceptions.",
-    },
-    {
       metric: "5+",
       label: "operational platforms connected",
       detail:
