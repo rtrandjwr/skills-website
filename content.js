@@ -70,7 +70,7 @@ window.PORTFOLIO_CONTENT = {
       ],
     },
     {
-      company: "DataAnnotation",
+      company: "Data Annotation",
       role: "AI Trainer",
       period: "Jan 2025 - Present",
       details: [
