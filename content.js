@@ -5,7 +5,7 @@ window.PORTFOLIO_CONTENT = {
   headline:
     "I build reliable data flows, automations, and internal systems that make technology easier for teams to trust and use.",
   summary:
-    "Technology and operations leader with hands-on experience across Azure, SQL Server, Snowflake, SaaS integrations, reporting, and cross-functional process improvement.",
+    "Technology and operations leader building cloud integrations, reliable data pipelines, and business applications across Azure, SQL Server, Snowflake, and Microsoft Access.",
   email: "richard@north-lake.net",
   linkedInUrl: "https://www.linkedin.com/in/richardrowleyoperations",
   resumeUrl: "assets/Richard_Rowley_Resume_Revised_Docebo_Snowflake.docx",
@@ -17,15 +17,15 @@ window.PORTFOLIO_CONTENT = {
   expertise: [
     {
       title: "IT Operations",
-      text: "Oversee internal systems, production tooling, support routines, and practical fixes that improve reliability and usability.",
+      text: "Support production systems with health checks, incident diagnosis, recovery routines, and practical fixes that improve reliability and usability.",
     },
     {
       title: "Systems Integration",
-      text: "Connect SQL Server, SaaS platforms, spreadsheets, and workflow tools with maintainable Azure Functions and API automations.",
+      text: "Connect databases, SaaS platforms, and workflow tools through Azure Functions, REST APIs, webhooks, and scheduled synchronization.",
     },
     {
       title: "Cloud & Data Engineering",
-      text: "Build Azure SQL, SQL Server, Snowflake, Python, C#, T-SQL, REST API, OAuth, and ETL solutions for operational use cases.",
+      text: "Build Python ETL and SQL data layers with incremental updates, reconciliation checks, and diagnostics that make reporting data easier to trust.",
     },
     {
       title: "Reporting & Visibility",
@@ -33,11 +33,11 @@ window.PORTFOLIO_CONTENT = {
     },
     {
       title: "Business Systems",
-      text: "Improve Cognito Forms, Adobe Sign, HubSpot, MS Access, Google Sheets, Docebo, and downstream workflow reliability.",
+      text: "Extend MS Access and SQL Server applications with purchasing, inventory, invoicing, and CRM workflows grounded in users' day-to-day work.",
     },
     {
       title: "Documentation & Delivery",
-      text: "Translate ambiguous requests into documented requirements, careful validation, staff training, and production-ready rollouts.",
+      text: "Turn requirements into tested changes, schema upgrade plans, user walkthroughs, and repeatable release packages with clear validation results.",
     },
   ],
   impact: [
@@ -66,7 +66,8 @@ window.PORTFOLIO_CONTENT = {
       details: [
         "Develop SQL Server back ends and MS Access front ends for business-critical systems, including database, interface, and workflow troubleshooting.",
         "Deliver targeted T-SQL and VBA enhancements while reviewing generated code for correctness, edge cases, and maintainability.",
-        "Designed a Docebo-to-Snowflake LMS data pipeline for training-compliance reporting, API discovery, Python ETL, diagnostics, and SQL view planning.",
+        "Built and support a Docebo-to-Snowflake pipeline with full synchronization, webhook-driven updates, enrollment reconciliation, and operational health checks.",
+        "Enhanced Access ERP purchasing and inventory workflows with blanket PO authorization checks, release tracking, and regression testing; documented backend schema upgrades using isolated database copies.",
       ],
     },
     {
@@ -103,8 +104,22 @@ window.PORTFOLIO_CONTENT = {
       title: "Docebo-to-Snowflake LMS Pipeline",
       type: "Data Integration",
       text:
-        "Built a Python ETL sync that extracts Docebo LMS data, normalizes it into Snowflake, preserves raw API payloads, and supports daily scheduled reporting.",
-      tags: ["Python", "Snowflake", "Docebo API"],
+        "Built a Python pipeline combining full synchronization with webhook-driven Snowflake updates. Added enrollment reconciliation, scheduled maintenance, and queue health checks to support training-compliance reporting and ongoing incident diagnosis.",
+      tags: ["Python", "Snowflake", "Webhooks", "Data Reconciliation"],
+    },
+    {
+      title: "Access ERP Purchasing & Inventory",
+      type: "Business Applications",
+      text:
+        "Extended blanket purchase order and stock workflows with authorization limits and release tracking. Corrected cancellation and reactivation behavior, verified 24 regression scenarios, and documented schema upgrade steps from comparisons of isolated database copies.",
+      tags: ["MS Access", "VBA", "Schema Analysis", "Regression Testing"],
+    },
+    {
+      title: "Access Blueprint",
+      type: "Desktop Software - Beta",
+      text:
+        "Advanced an Access database analysis tool to a packaged beta with HTML reports, privacy controls, scan cancellation, support diagnostics, and x86/x64 builds. Passed 36 regression checks and four real Access scenarios; broader Office compatibility testing remains part of beta validation.",
+      tags: ["C#", ".NET", "Database Analysis", "Release Packaging"],
     },
     {
       title: "Google Sheets and SQL Sync",
@@ -131,7 +146,7 @@ window.PORTFOLIO_CONTENT = {
   skills: [
     {
       group: "Core Strengths",
-      items: ["IT Operations", "Systems Oversight", "Process Improvement", "Requirements Gathering", "Production Support"],
+      items: ["IT Operations", "Systems Oversight", "Process Improvement", "Requirements Gathering", "Production Support", "Incident Diagnosis"],
     },
     {
       group: "Cloud & Data",
@@ -139,11 +154,19 @@ window.PORTFOLIO_CONTENT = {
     },
     {
       group: "Languages & Tools",
-      items: ["C#", "Python", "VBA", "MS Access", "REST APIs", "OAuth"],
+      items: ["C# / .NET", "Python", "VBA", "PowerShell", "MS Access", "Git"],
     },
     {
       group: "Business Systems",
       items: ["Cognito Forms", "Adobe Sign", "HubSpot", "Google Sheets", "Docebo", "Power BI"],
+    },
+    {
+      group: "Integration & Reliability",
+      items: ["REST APIs", "OAuth", "Webhooks", "Incremental Sync", "Data Reconciliation", "Health Monitoring"],
+    },
+    {
+      group: "Validation & Delivery",
+      items: ["Schema Comparison", "Database Upgrade Planning", "Regression Testing", "Privacy Controls", "Release Packaging", "Technical Documentation"],
     },
   ],
 };
